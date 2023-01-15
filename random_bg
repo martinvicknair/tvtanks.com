@@ -6,7 +6,7 @@
 files=(/home/pi/Desktop/backgrounds/*)
 
 # Random file selection
-path=`printf "%s\n" "${files[RANDOM % ${#files[@]}]}"`
+path=$(printf "%s\n" "${files[RANDOM % ${#files[@]}]}")
 
 # Using pcmanfm to set the wallpaper
 pcmanfm --set-wallpaper="$path"
@@ -15,6 +15,6 @@ exit 0
 # https://forums.raspberrypi.com/viewtopic.php?t=51744 Wallz - A new lightweight wallpaper slide show
 # http://stackoverflow.com/questions/701505/best-way-to-choose-a-random-file-from-a-directory-in-a-shell-script
 # https://www.mankier.com/1/pcmanfm
-# 
+#
 ## https://tvtanks.com
 ## https://github.com/martinvicknair
