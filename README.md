@@ -4,7 +4,7 @@
 Or, how I made mine 
 
 ## Resources 
-* [Scripts repository - Scripts used on my tank](https://github.com/martinvicknair/tvtanks.com/tree/main/assets/scripts)
+[Scripts used on my tank](assets/scripts/README.md)
 
 
 #### About Me
