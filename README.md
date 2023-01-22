@@ -7,7 +7,7 @@ This project uses a two pole switch connected to the GPIO pins of a Raspberry Pi
 * [gpiozero - A simple interface to GPIO devices with Raspberry Pi](https://gpiozero.readthedocs.io/en/stable/)
 * [Running scripts on startup](https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup/all#method-2-autostart)
 * [pcmanfm - Gtk+ based file manager for X Window.](https://www.mankier.com/1/pcmanfm)
-
+<br\>
 
 * [TvTanks.com website](https://tvtanks.com)
 * [tvtanks-scripts Github Repository](https://github.com/martinvicknair)
