@@ -1,15 +1,18 @@
 #!/bin/bash
 
-## Sets a random background picture from a specified directory
+## This script is used to set a random wallpaper from a directory. 
+## The shuf command is used to randomly select a file from the specified directory. 
+## The wallpaper is then set using the pcmanfm command. 
+## The script exits with a status of 0.
 
-# Wallpaper directory
-files=(/home/pi/Desktop/backgrounds/*)
+# Store directory of wallpapers in variable 
+wp_directory="/home/pi/Desktop/backgrounds/*"
 
-# Random file selection
-path=$(printf "%s\n" "${files[RANDOM % ${#files[@]}]}")
+# Select a random wallpaper from the directory 
+random_file=$(shuf -n1 -e $wp_directory)
 
-# Using pcmanfm to set the wallpaper
-pcmanfm --set-wallpaper="$path"
+# Set the wallpaper using pcmanfm 
+pcmanfm --set-wallpaper="$random_file" 
 exit 0
 
 # https://forums.raspberrypi.com/viewtopic.php?t=51744 Wallz - A new lightweight wallpaper slide show
@@ -18,3 +21,5 @@ exit 0
 #
 ## https://tvtanks.com
 ## https://github.com/martinvicknair
+
+## refactor this code in python
