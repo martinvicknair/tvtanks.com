@@ -13,4 +13,6 @@ This project uses a two pole switch connected to the GPIO pins of a Raspberry Pi
 #### About Me
 * [GitHub](https://github.com/martinvicknair)
 * [LinkedIn](https://linkedin.com/in/martinvicknair)
-* [martinv.io](https://external.ink?to=/https://martinv.io)
+* [martinv.io](https://martinv.io)
+
+* <a href="https://martinv.io" target="_blank">martinv.io</a>
