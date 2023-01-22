@@ -4,7 +4,7 @@
 Or, how I made mine 
 
 ## Resources 
-[Scripts used on my tank](assets/scripts/README.md)
+[Scripts used on my tank](/assets/scripts)
 
 
 #### About Me
