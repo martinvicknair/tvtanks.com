@@ -1,3 +1,4 @@
+![TvTanks image](images/tvtanktv.JPG)
 
 # TV Fish Tank Channel Changer
 This project uses a two pole switch connected to the GPIO pins of a Raspberry Pi to deactivate the screensaver and change the background picture of a TV Fish Tank. 
