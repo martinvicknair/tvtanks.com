@@ -14,6 +14,8 @@ This project uses a two pole switch connected to the GPIO pins of a Raspberry Pi
 
 #### About Me
 
-- <a href="https://github.com/martinvicknair" target="_blank">GitHub</a>
-- <a href="https://linkedin.com/in/martinvicknair" target="_blank">LinkedIn</a>
-- **<a href="https://martinv.io" target="_blank">martinv.io</a>**
+- [GitHub](https://github.com/martinvicknair)
+- [LinkedIN](https://linkedin.com/in/martinvicknair)
+- [martinv.io](https://martinv.io)
+
+###### Site hosted on [GitHub Pages](https://martinvicknair.github.io/tvtanks.com)
