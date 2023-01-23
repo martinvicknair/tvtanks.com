@@ -22,33 +22,33 @@ from pynput.mouse import Controller
 from signal import pause
 from subprocess import call
 
-# Initialize mouse controller 
-mouse = Controller()  
-# Initialize button on GPIO pin 2 
-button = Button(2)    
+# Initialize mouse controller
+mouse = Controller()
+# Initialize button on GPIO pin 2
+button = Button(2)
 
-# Store directory of wallpapers in variable 
+# Store directory of wallpapers in variable
 wp_directory="/home/pi/Desktop/backgrounds/*"
 
-# Sets initial mouse position away from center of screen 
+# Sets initial mouse position away from center of screen
 mouse.position = (0, 50)
 
-# Define action to be taken when button is pressed or released 
-def action():  
-# Deactivate screensaver and move mouse away from center of screen 
-    os.system("xscreensaver-command -deactivate")  
-    mouse.position = (0, 50)  
-# Select a random wallpaper from the directory 
+# Define action to be taken when button is pressed or released
+def action():
+# Deactivate screensaver and move mouse away from center of screen
+    os.system("xscreensaver-command -deactivate")
+    mouse.position = (0, 50)
+# Select a random wallpaper from the directory
     random_file = random.choice(glob.glob(wp_directory))
-# Set the wallpaper using pcmanfm  
-    call(["pcmanfm", "--set-wallpaper=" + random_file])  
+# Set the wallpaper using pcmanfm
+    call(["pcmanfm", "--set-wallpaper=" + random_file])
 
-# Set action to be taken when button is pressed or released 
-button.when_pressed = action  
-button.when_released = action  
+# Set action to be taken when button is pressed or released
+button.when_pressed = action
+button.when_released = action
 
-# Pause program execution until button is pressed or released 
-pause()  
+# Pause program execution until button is pressed or released
+pause()
 
 # https://pynput.readthedocs.io/en/latest/index.html
 # https://gpiozero.readthedocs.io/en/stable/
@@ -61,9 +61,9 @@ pause()
 
 ## Resources
 
-- **[This script on GitHub](https://github.com/martinvicknair/tvtanks.com/tree/main/assets/scripts)**  
+- **This script on [GitHub](https://github.com/martinvicknair/tvtanks.com/tree/main/assets/scripts)**
 
-- [pynput - This library allows you to control and monitor input devices](https://pynput.readthedocs.io/en/latest/index.html)
-- [gpiozero - A simple interface to GPIO devices with Raspberry Pi](https://gpiozero.readthedocs.io/en/stable/)
-- [Running scripts on startup](https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup/all#method-2-autostart)
-- [pcmanfm - Gtk+ based file manager for X Window](https://www.mankier.com/1/pcmanfm)
+- [gpiozero](https://gpiozero.readthedocs.io/en/stable/) - A simple interface to GPIO devices with Raspberry Pi
+- [pcmanfm](https://www.mankier.com/1/pcmanfm) - Gtk+ based file manager for X Window
+- [pynput](https://pynput.readthedocs.io/en/latest/index.html) - This library allows you to control and monitor input devices
+- Running scripts on [startup](https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup/all#method-2-autostart)
