@@ -1,4 +1,4 @@
-![TvTank logo](../images/tvtanktv.JPG)
+![TvTank logo](/assets/images/tvtanktv.JPG)
 
 # TV Fish Tank Channel Changer
 

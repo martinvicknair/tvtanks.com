@@ -24,10 +24,6 @@ Making your own TV Fish Tank from a vintage cabinet, powered by a Raspberry Pi f
 
 ---
 
-##### About Me
-
-- [GitHub](https://github.com/martinvicknair)
-- [LinkedIn](https://linkedin.com/in/martinvicknair)
-- [martinv.io](https://martinv.io)
+#### [About Me](/about.md)
 
 ###### This site coded in [Markdown](https://github.com/martinvicknair/tvtanks.com) and hosted on [GitHub Pages](https://martinvicknair.github.io/tvtanks.com)
