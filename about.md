@@ -1,6 +1,6 @@
 ![TvTank logo](/assets/images/tvtanktv.JPG)
 
-# Everything else about me
+# Everything else
 
 * [GitHub](https://github.com/martinvicknair)
 * [LinkedIn](https://linkedin.com/in/martinvicknair)
