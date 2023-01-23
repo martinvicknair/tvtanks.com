@@ -1,4 +1,3 @@
-<link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
 ![TvTanks logo](/assets/images/tvtanktv.JPG)
 
 # Raspberry Pi powered Tv Fish Tanks
