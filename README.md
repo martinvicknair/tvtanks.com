@@ -6,8 +6,7 @@ Or, how I made mine
 ## Resources 
 [Scripts used on my tank](/assets/scripts)
 
-
 #### About Me
-* [GitHub](https://github.com/martinvicknair)
-* [LinkedIn](https://linkedin.com/in/martinvicknair)
-* [martinv.io](https://martinv.io)
+* <a href="https://github.com/martinvicknair" target="_blank">GitHub</a>
+* <a href="https://linkedin.com/in/martinvicknair" target="_blank">LinkedIn</a> 
+* **<a href="https://martinv.io" target="_blank">martinv.io</a>**
