@@ -8,7 +8,7 @@ Making your own TV Fish Tank from a vintage cabinet, powered by a Raspberry Pi f
 
 Or, how I made mine:
 
->### [Vintage Cabinets][vintage-cabinets.md]
+>### [Vintage Cabinets]
 
 - Acquiring
 - Rebuilding 
@@ -42,4 +42,4 @@ Or, how I made mine:
 [hardware.md]: https://tvtanks.com/pages/hardware "Hardware Build"
 [raspberry-pi.md]: https://tvtanks.com/pages/raspberry-pi "Raspberry Pi Setup"
 [tvtanks-logo]: https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/images/tvtanktv.JPG "TvTanks.com Logo"
-[vintage-cabinets.md]: https://tvtanks.com/pages/vintage-cabinets "Vintage Cabinets"
+[Vintage Cabinets]: /pages/vintage-cabinets "Vintage Cabinets"
