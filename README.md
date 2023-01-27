@@ -18,7 +18,7 @@ Or, how I made mine:
 
 - Electronics
 - Aquarium
-- Other Considerations
+- Special Considerations
 
 >### [Raspberry Pi Setup][raspberry-pi.md]
 
@@ -26,7 +26,7 @@ Or, how I made mine:
 - Software used
 - My custom channel changer [script][channel_changer.py] on GitHub
 
->### [Aquarium Basics][fish.md]
+>### [Fishkeeping][fish.md]
 
 - Getting started with live fish
 
