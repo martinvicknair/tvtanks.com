@@ -14,18 +14,24 @@ Or, how I made mine:
 
 ### Hardware Build
 
-- Display, Raspberry Pi, switches, and more
+- Electronics
+- Aquarium
+- Other Considerations
 
-### Scripts
+### [Raspberry Pi Setup][raspberry-pi.md]
 
-- [Scripts](/scripts) used on my tank
+- Raspberry Pi configuration
+- Software used
+- Custom [Script](/scripts) used on my tank
 
 ### Aquarium Basics
 
-- Tanks, pumps, and other considerations
+- Getting started with live fish
 
 ---
 
 ##### [About Me](/about.md)
 
 ###### This site coded in [Markdown](https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/README.md) and hosted on [GitHub Pages](https://github.com/martinvicknair/tvtanks.com)
+
+[raspberry-pi.md]: /url "title"
