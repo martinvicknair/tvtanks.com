@@ -1,4 +1,4 @@
-![TvTanks logo](/assets/images/tvtanktv.JPG)
+![TvTanks logo][tvtanks-logo]
 
 # Raspberry Pi Powered TV Fish Tanks
 
@@ -24,19 +24,22 @@ Or, how I made mine:
 
 - Raspberry Pi configuration
 - Software used
-- My custom channel changer [Script][scripts.md]
+- My custom channel changer [script][channel_changer.py] on GitHub
 
->### Aquarium Basics
+>### [Aquarium Basics][fish.md]
 
 - Getting started with live fish
 
 ---
 
-##### [About Me](/about.md)
+##### [About Me][about.md]
 
 ###### This site coded in [Markdown](https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/README.md) and hosted on [GitHub Pages](https://github.com/martinvicknair/tvtanks.com)
 
-[raspberry-pi.md]: https://tvtanks.com/raspberry-pi.md "Raspberry Pi Setup"
-[scripts.md]: https://tvtanks.com/scripts "Custom Scripts"
+[about.md]: https://tvtanks.com/pages/about.md
+[channel_changer.py]: https://github.com/martinvicknair/tvtanks.com/blob/main/channel_changer.py "My Custom Script"
+[fish.md]: https://tvtanks.com/pages/fish.md
+[hardware.md]: https://tvtanks.com/pages/hardware.md "Hardware Build"
+[raspberry-pi.md]: https://tvtanks.com/pages/raspberry-pi.md "Raspberry Pi Setup"
+[tvtanks-logo]: https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/images/tvtanktv.JPG "Tv Tank Logo"
 [vintage-cabinets.md]: https://tvtanks.com/vintage-cabinets.md "Vintage Cabinets"
-[hardware.md]: https://tvtanks.com/hardware.md "Hardware Build"
