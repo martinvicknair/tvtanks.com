@@ -1,4 +1,4 @@
-![TvTanks logo][tvtanks-logo]
+![TvTanks.com Logo][tvtanks-logo]
 
 # Everything else about
 
@@ -11,5 +11,5 @@
 [fish.md]: https://tvtanks.com/pages/fish
 [hardware.md]: https://tvtanks.com/pages/hardware "Hardware Build"
 [raspberry-pi.md]: https://tvtanks.com/pages/raspberry-pi "Raspberry Pi Setup"
-[tvtanks-logo]: https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/images/tvtanktv.JPG "Tv Tank Logo"
+[tvtanks-logo]: https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/images/tvtanktv.JPG "TvTanks.com Logo"
 [vintage-cabinets.md]: https://tvtanks.com/pages/vintage-cabinets "Vintage Cabinets"
