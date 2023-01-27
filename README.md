@@ -8,38 +8,38 @@ Making your own TV Fish Tank from a vintage cabinet, powered by a Raspberry Pi f
 
 Or, how I made mine:
 
->### [Vintage Cabinets]
+> ### [Vintage Cabinets]
 
 - Acquiring
-- Rebuilding 
+- Rebuilding
 - Refinishing
 
->### [Hardware Build][hardware.md]
+> ### [Hardware Build]
 
 - Electronics
 - Aquarium
 - Special Considerations
 
->### [Raspberry Pi Setup][raspberry-pi.md]
+> ### [Raspberry Pi Setup]
 
 - Raspberry Pi configuration
 - Software used
-- My custom channel changer [script][channel_changer.py] on GitHub
+- My custom channel changer [script] on GitHub.
 
->### [Fishkeeping][fish.md]
+> ### [Fishkeeping]
 
 - Getting started with live fish
 
 ---
 
-##### [About Me][about.md]
+##### [About Me]
 
 ###### This site coded in [Markdown](https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/README.md) and hosted on [GitHub Pages](https://github.com/martinvicknair/tvtanks.com)
 
-[about.md]: https://tvtanks.com/pages/about
-[channel_changer.py]: https://github.com/martinvicknair/tvtanks.com/blob/main/channel_changer.py "My Custom Script"
-[fish.md]: https://tvtanks.com/pages/fish "Aquarium Basics"
-[hardware.md]: https://tvtanks.com/pages/hardware "Hardware Build"
-[raspberry-pi.md]: https://tvtanks.com/pages/raspberry-pi "Raspberry Pi Setup"
+[about me]: https://tvtanks.com/pages/about "About Me"
+[script]: https://github.com/martinvicknair/tvtanks.com/blob/main/channel_changer.py "script"
+[fishkeeping]: https://tvtanks.com/pages/fish "Fishkeeping"
+[hardware build]: https://tvtanks.com/pages/hardware "Hardware Build"
+[raspberry pi setup]: https://tvtanks.com/pages/raspberry-pi "Raspberry Pi Setup"
 [tvtanks-logo]: https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/images/tvtanktv.JPG "TvTanks.com Logo"
-[Vintage Cabinets]: https://tvtanks.com/pages/vintage-cabinets "Vintage Cabinets"
+[vintage cabinets]: https://tvtanks.com/pages/vintage-cabinets "Vintage Cabinets"
