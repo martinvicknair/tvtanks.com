@@ -42,4 +42,4 @@ Or, how I made mine:
 [hardware.md]: https://tvtanks.com/pages/hardware "Hardware Build"
 [raspberry-pi.md]: https://tvtanks.com/pages/raspberry-pi "Raspberry Pi Setup"
 [tvtanks-logo]: https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/images/tvtanktv.JPG "TvTanks.com Logo"
-[Vintage Cabinets]: /pages/vintage-cabinets "Vintage Cabinets"
+[Vintage Cabinets]: /pages/vintage-cabinets.md "Vintage Cabinets"
