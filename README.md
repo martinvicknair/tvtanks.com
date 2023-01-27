@@ -34,4 +34,4 @@ Or, how I made mine:
 
 ###### This site coded in [Markdown](https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/README.md) and hosted on [GitHub Pages](https://github.com/martinvicknair/tvtanks.com)
 
-[raspberry-pi.md]: /url "title"
+[raspberry-pi.md]: /https://github.com/martinvicknair/tvtanks.com/blob/main/raspberry-pi.md "Raspberry Pi Setup"
