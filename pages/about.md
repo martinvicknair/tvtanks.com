@@ -1,4 +1,4 @@
-![TvTanks.com Logo][tvtanks-logo]
+![TvTanks.com Logo](https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/images/tvtanktv.JPG)
 
 # Everything else about
 
