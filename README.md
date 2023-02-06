@@ -44,6 +44,6 @@ Or, how I made mine:
 
 ###### This site coded in [Markdown](https://github.com/martinvicknair/tvtanks.com/blob/main/README.md?plain=1) and hosted on [GitHub Pages](https://github.com/martinvicknair/tvtanks.com)
 
-<script src=`function liveViews(response) {
+<script src=`"function liveViews(response) {
     document.getElementById('visits').innerText = response.value;
-}`></script>
+}"`></script>
