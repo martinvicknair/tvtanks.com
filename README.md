@@ -1,11 +1,8 @@
 <!-- This README.md file is formatted for viewing at tvtanks.com -->
 
-<script src="https://api.countapi.xyz/hit/tvtanks.com /visits?callback=liveViews" async></script>
-
-
 ![TvTanks.com Logo](https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/images/tvtanktv.JPG)
 
-###### Last Modified: 2023/01/27 20:10:40
+###### Last Modified: 2023/02/06 12:17:59
 
 # Raspberry Pi Powered TV Fish Tanks
 
@@ -45,4 +42,9 @@ Or, how I made mine:
 
 ###### This site coded in [Markdown](https://github.com/martinvicknair/tvtanks.com/blob/main/README.md?plain=1) and hosted on [GitHub Pages](https://github.com/martinvicknair/tvtanks.com)
 
- <script>   function liveViews(response) {   document.getElementById('visits').innerText = response.value; } </script> 
+ <script>
+function cb(response) {
+    document.getElementById('visits').innerText = response.value;
+}
+</script>
+<script async src="https://api.countapi.xyz/hit/tvtanks.com/visits?callback=cb"></script>
