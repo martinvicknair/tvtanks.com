@@ -2,7 +2,7 @@
 
 ![TvTanks.com Logo](https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/images/tvtanktv.JPG)
 
-###### Last Modified: 2023/02/06 12:55:35
+###### Last Modified: 2023/02/06 16:27:28
 
 # Raspberry Pi Powered TV Fish Tanks
 
@@ -37,7 +37,5 @@ Or, how I made mine:
 ---
 
 ##### [About Me](https://tvtanks.com/pages/about)
-
-###### This page viewed <span id="visits"></span> times.
 
 ###### This site coded in [Markdown](https://github.com/martinvicknair/tvtanks.com/blob/main/README.md?plain=1) and hosted on [GitHub Pages](https://github.com/martinvicknair/tvtanks.com)
