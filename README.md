@@ -2,7 +2,7 @@
 
 ![TvTanks.com Logo](https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/images/tvtanktv.JPG)
 
-###### Last Modified: 2023/02/08 10:41:43
+###### Last Modified: 2023/02/08 10:44:12
 
 # Raspberry Pi Powered TV Fish Tanks
 
@@ -42,4 +42,4 @@ Or, how I made mine:
 
 <div id="visits">...</div>
 
-function cb(response) {document.getElementById('visits').innerText = response.value;}</script>
+<script>function cb(response) {document.getElementById('visits').innerText = response.value;}</script>
