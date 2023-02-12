@@ -2,9 +2,9 @@
 
 ![TvTanks.com Logo](https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/images/tvtanktv.JPG)
 
-###### Last Modified: 2023/02/11 14:40:28
+###### Last Modified: 2023/02/11 18:32:06
 
-# Raspberry Pi Powered TV Fish Tanks index
+# Raspberry Pi Powered TV Fish Tanks
 
 Making your own TV Fish Tank from a vintage cabinet, powered by a Raspberry Pi for custom graphics.
 
@@ -38,7 +38,7 @@ Or, how I made mine:
 
 ##### [About Me](https://tvtanks.com/pages/about)
 
-###### This site coded in [Markdown](https://github.com/martinvicknair/tvtanks.com/blob/main/README.md?plain=1) and hosted on [GitHub Pages](https://github.com/martinvicknair/tvtanks.com)
+###### This site coded in [Markdown](https://github.com/martinvicknair/tvtanks.com/blob/main/index.md?plain=1) and hosted on [GitHub Pages](https://github.com/martinvicknair/tvtanks.com)
 
 <div id="visits">...</div>
 
