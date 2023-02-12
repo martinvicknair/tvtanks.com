@@ -2,7 +2,7 @@
 
 ![TvTanks.com Logo](https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/images/tvtanktv.JPG)
 
-###### Last Modified: 2023/02/11 18:32:06
+###### Last Modified: 2023/02/11 19:06:01
 
 # Raspberry Pi Powered TV Fish Tanks
 
@@ -11,6 +11,10 @@ Making your own TV Fish Tank from a vintage cabinet, powered by a Raspberry Pi f
 ## Resources
 
 Or, how I made mine:
+
+[![Philco w/ crawfish]
+(https://img.youtube.com/vi/vqxDm0GUgoo/maxresdefault.jpg)]
+(https://youtu.be/vqxDm0GUgoo)
 
 > ### [Vintage Cabinets](https://tvtanks.com/pages/vintage-cabinets)
 
