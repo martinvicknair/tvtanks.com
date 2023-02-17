@@ -14,7 +14,7 @@ It's running [Raspberry Pi OS (Legacy)](https://www.raspberrypi.com/software/ope
 sudo apt-get install xscreensaver*
 ```
 
-- My custom channel changer [script](https://github.com/martinvicknair/tvtanks.com/blob/main/channel_changer.py) on GitHub.
+- My custom channel changer script on [GitHub](https://github.com/martinvicknair/tvtanks.com/blob/main/channel_changer.py).
 
 ```
 #!/usr/bin/env python3
