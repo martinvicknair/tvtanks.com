@@ -14,7 +14,7 @@ sudo apt-get install xscreensaver*
 ```  
 
 - My custom channel changer [script](https://github.com/martinvicknair/tvtanks.com/blob/main/channel_changer.py) on GitHub.  
-```  
+ ```
 #!/usr/bin/env python3
 
 ## Changes the 'channel' on my TV Fish tank:
@@ -66,4 +66,4 @@ pause()
 ## https://tvtanks.com
 ## https://github.com/martinvicknair
 
-```  
+```
