@@ -1,3 +1,3 @@
-![TvTanks.com Logo](https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/images/tvtanktv.JPG)
+![TvTanks.com Logo](/assets/images/tvtanktv.JPG)
 
 # Vintage Cabinets

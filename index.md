@@ -1,8 +1,8 @@
 <script async src="https://api.countapi.xyz/hit/tvtanks.com/visits?callback=cb"></script>
 
-![TvTanks.com Logo](https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/images/tvtanktv.JPG)
+![TvTanks.com Logo](/assets/images/tvtanktv.JPG)
 
-###### Last Modified: 2023/02/12 12:17:06
+###### Last Modified: 2023/02/17 13:00:43
 
 # Raspberry Pi Powered TV Fish Tanks
 
