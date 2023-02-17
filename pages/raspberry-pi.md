@@ -8,13 +8,15 @@ I'm using an original [Raspberry Pi Model B](https://en.wikipedia.org/wiki/Raspb
 
 It's running [Raspberry Pi OS (Legacy)](https://www.raspberrypi.com/software/operating-systems/). Other packages include the OpenVPN server, XScreenSaver, python3, shared google drive.
 
-- [XScreenSaver](https://www.jwz.org/xscreensaver/) - XScreenSaver is the standard screen saver collection shipped on most Linux and Unix systems running the X11 Window System. To install the complete suite, try:  
-```  
-sudo apt-get install xscreensaver*
-```  
+- [XScreenSaver](https://www.jwz.org/xscreensaver/) - XScreenSaver is the standard screen saver collection shipped on most Linux and Unix systems running the X11 Window System. To install the complete suite, try:
 
-- My custom channel changer [script](https://github.com/martinvicknair/tvtanks.com/blob/main/channel_changer.py) on GitHub.  
- ```
+```
+sudo apt-get install xscreensaver*
+```
+
+- My custom channel changer [script](https://github.com/martinvicknair/tvtanks.com/blob/main/channel_changer.py) on GitHub.
+
+```
 #!/usr/bin/env python3
 
 ## Changes the 'channel' on my TV Fish tank:
@@ -30,33 +32,33 @@ from pynput.mouse import Controller
 from signal import pause
 from subprocess import call
 
-# Initialize mouse controller 
-mouse = Controller()  
-# Initialize button on GPIO pin 2 
-button = Button(2)    
+# Initialize mouse controller
+mouse = Controller()
+# Initialize button on GPIO pin 2
+button = Button(2)
 
-# Store directory of wallpapers in variable 
+# Store directory of wallpapers in variable
 wp_directory="/home/pi/Desktop/backgrounds/*"
 
-# Sets initial mouse position away from center of screen 
+# Sets initial mouse position away from center of screen
 mouse.position = (0, 50)
 
-# Define action to be taken when button is pressed or released 
-def action():  
-# Deactivate screensaver and move mouse away from center of screen 
-    os.system("xscreensaver-command -deactivate")  
-    mouse.position = (0, 50)  
-# Select a random wallpaper from the directory 
-    random_file = random.choice(glob.glob(wp_directory))
-# Set the wallpaper using pcmanfm  
-    call(["pcmanfm", "--set-wallpaper=" + random_file])  
+# Define action to be taken when button is pressed or released
+def action():
+# Deactivate screensaver and move mouse away from center of screen
+   os.system("xscreensaver-command -deactivate")
+   mouse.position = (0, 50)
+# Select a random wallpaper from the directory
+   random_file = random.choice(glob.glob(wp_directory))
+# Set the wallpaper using pcmanfm
+   call(["pcmanfm", "--set-wallpaper=" + random_file])
 
-# Set action to be taken when button is pressed or released 
-button.when_pressed = action  
-button.when_released = action  
+# Set action to be taken when button is pressed or released
+button.when_pressed = action
+button.when_released = action
 
-# Pause program execution until button is pressed or released 
-pause()  
+# Pause program execution until button is pressed or released
+pause()
 
 # https://pynput.readthedocs.io/en/latest/index.html
 # https://gpiozero.readthedocs.io/en/stable/
