@@ -2,7 +2,7 @@
 
 ![TvTanks.com Logo](/assets/images/tvtanktv.JPG)
 
-###### Last Modified: 2023/02/17 13:00:43
+###### Last Modified: 2023/02/17 13:05:41
 
 # Raspberry Pi Powered TV Fish Tanks
 
@@ -26,7 +26,7 @@ Or, how I made mine:
 - Aquarium
 - Special Considerations
 
-> ### [Raspberry Pi Setup](https://tvtanks.com/pages/raspberry-pi)
+> ### [My Raspberry Pi Setup](https://tvtanks.com/pages/raspberry-pi)
 
 - Raspberry Pi configuration
 - Software used
