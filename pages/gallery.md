@@ -4,7 +4,7 @@
 
 ---
 
-- Pics of various TvTanks I've made
+Pics of various TvTanks I've made
 
 * {% include youtube.html id="vqxDm0GUgoo" %}
 * ![tank1](../assets/images/2008-1230-1214-001.jpg)
