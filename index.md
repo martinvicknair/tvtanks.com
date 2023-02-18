@@ -38,7 +38,7 @@ Or, how I made mine:
 
 ---
 
-##### [About](/pages/about.mdt)
+##### [About](/pages/about.md)
 
 <div id="visits">..</div>
 
