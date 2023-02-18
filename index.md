@@ -2,7 +2,7 @@
 
 ![TvTanks.com Logo](/assets/images/tvtanktv.JPG)
 
-###### Last Modified: 2023/02/17 17:24:20
+###### Last Modified: 2023/02/17 20:15:20
 
 # Raspberry Pi Powered TV Fish Tanks
 
@@ -26,7 +26,7 @@ Or, how I made mine:
 
 - Raspberry Pi configuration
 - Software used
-- My custom channel changer [script](/pages/raspberry-pi.md#MyScript).
+- My custom channel changer script
 
 > ### [The Hardware Build - Putting It Together](/pages/hardware.md)
 
