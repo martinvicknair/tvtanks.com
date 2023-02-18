@@ -2,7 +2,7 @@
 
 ![TvTanks.com Logo](/assets/images/tvtanktv.JPG)
 
-###### Last Modified: 2023/02/17 20:15:20
+###### Last Modified: 2023/02/17 21:35:50
 
 # Raspberry Pi Powered TV Fish Tanks
 
@@ -12,21 +12,17 @@ Making your own TV Fish Tank from a vintage cabinet, powered by a Raspberry Pi f
 
 Or, how I made mine:  
 
->### [Gallery](/pages/gallery.md)  
+> ### [My Raspberry Pi Setup](/pages/raspberry-pi.md)
 
-- Pics of various TvTank projects I've made
+- Raspberry Pi configuration
+- Software used
+- My custom channel changer script
 
 > ### [Vintage Cabinets](/pages/gallery.md)
 
 - Acquiring
 - Rebuilding
 - Refinishing
-
-> ### [My Raspberry Pi Setup](/pages/raspberry-pi.md)
-
-- Raspberry Pi configuration
-- Software used
-- My custom channel changer script
 
 > ### [The Hardware Build - Putting It Together](/pages/hardware.md)
 
@@ -37,6 +33,10 @@ Or, how I made mine:
 > ### [Basic Fishkeeping](/pages/fish.md)
 
 - Getting started with live fish
+
+>### [Gallery](/pages/gallery.md)  
+
+- Pics of various TvTank projects I've made
 
 ---
 
