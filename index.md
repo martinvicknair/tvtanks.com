@@ -34,11 +34,11 @@ Or, how I made mine:
 
 > ### [Gallery](/pages/gallery.md)
 
-- Pics of various TvTank projects I've made
+- Pics of various TvTanks I've made
 
 ---
 
-##### [About](/pages/about.md)
+##### [Everything else about..](/pages/about.md)
 
 <div id="visits">..</div>
 
