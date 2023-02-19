@@ -41,7 +41,7 @@ sudo apt install python3-gpiozero
 <div id="channel_changer.py">
 </div>
 
-- Set my channel changer script below at boot. Follow these [instructions](https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup/all#method-2-autostart) to use the autostart system, as you will need access to X Windows and the desktop of the Raspberry Pi.
+- Set my channel changer script below to run at boot. Follow these [instructions](https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup/all#method-2-autostart) to use the autostart system, as you will need access to X Windows and the desktop of the Raspberry Pi.
 
 My custom channel changer script is also available on [GitHub](https://github.com/martinvicknair/tvtanks.com/blob/main/channel_changer.py).
 
