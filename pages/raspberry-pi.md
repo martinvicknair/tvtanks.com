@@ -101,7 +101,7 @@ pause()
 ---
 
 <script src="https://utteranc.es/client.js"
-        repo="[martinvicknair/tvtanks.com]"
+        repo="martinvicknair/tvtanks.com"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
