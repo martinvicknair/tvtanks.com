@@ -14,6 +14,10 @@ It's running [Raspberry Pi OS (Legacy)](https://www.raspberrypi.com/software/ope
 sudo apt-get install xscreensaver*
 ```
 
+My current settings are Random Screen Saver; Blank and Cycle after 1 minute. There are hundreds of [screensavers](https://www.jwz.org/xscreensaver/screenshots/) available: current favorites: BoxFit, CloudLife, Deco, Deluxe, Demon, FuzzyFlakes, Goop, Grav, Kaleidoscope, Moire, Penrose, Phosphor, Pong, PopSquares, Rocks, Squiral, Substrate, WhirlWindWarp, XAnalogTV.
+
+![XScreenSaver-Preferences](/assets/images/xscreensaver-preferences-tvtanks.png)
+
 <div id="channel_changer.py">
 </div>
 
