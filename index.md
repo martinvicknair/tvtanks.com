@@ -42,8 +42,7 @@ Or, how I made mine:
 
 <div id="visits">..</div>
 
-<script>function cb(response) {document.getElementById('visits').innerText = response.value;}</script>
----
+## <script>function cb(response) {document.getElementById('visits').innerText = response.value;}</script>
 
 <script src="https://utteranc.es/client.js"
         repo="martinvicknair/tvtanks.com"
@@ -52,4 +51,3 @@ Or, how I made mine:
         crossorigin="anonymous"
         async>
 </script>
-
