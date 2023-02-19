@@ -18,6 +18,26 @@ My current settings are Random Screen Saver; Blank and Cycle after 1 minute. The
 
 ![XScreenSaver-Preferences](/assets/images/xscreensaver-preferences-tvtanks.png)
 
+- Python3 - While you may know the python as a large snake, the [name of the Python programming language](https://pythoninstitute.org/about-python) comes from an old BBC television comedy sketch series called Monty Python’s Flying Circus.
+
+```
+sudo apt install python3
+```
+
+- [pynput](https://pynput.readthedocs.io/en/latest/) - Using Pynput a Python script can simulate a keypress, [move the mouse](https://pynput.readthedocs.io/en/latest/mouse.html) to a specific point on the screen, and monitor the inputs.
+
+```
+sudo pip3 install pynput
+```
+
+- [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/installing.html) - This library allows a common 2 pole 4 position switch to be used a "button" to [change the channel](https://gpiozero.readthedocs.io/en/stable/recipes.html#button) on my TvTank. In essence, turning the knob deactivates the screen saver and changes the background picture.
+
+```
+sudo apt install python3-gpiozero
+```
+
+- Run my channel changer script below at boot. Follow these [directions](https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup/all#method-2-autostart) to use the autostart system, as you will need access to the X Windows and desktop of the Raspberry Pi.
+
 <div id="channel_changer.py">
 </div>
 
@@ -53,12 +73,12 @@ mouse.position = (0, 50)
 # Define action to be taken when button is pressed or released
 def action():
 # Deactivate screensaver and move mouse away from center of screen
-   os.system("xscreensaver-command -deactivate")
-   mouse.position = (0, 50)
+    os.system("xscreensaver-command -deactivate")
+    mouse.position = (0, 50)
 # Select a random wallpaper from the directory
-   random_file = random.choice(glob.glob(wp_directory))
+    random_file = random.choice(glob.glob(wp_directory))
 # Set the wallpaper using pcmanfm
-   call(["pcmanfm", "--set-wallpaper=" + random_file])
+    call(["pcmanfm", "--set-wallpaper=" + random_file])
 
 # Set action to be taken when button is pressed or released
 button.when_pressed = action
@@ -74,5 +94,4 @@ pause()
 
 ## https://tvtanks.com
 ## https://github.com/martinvicknair
-
 ```
