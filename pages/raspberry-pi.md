@@ -6,9 +6,11 @@
 
 I'm using an original [Raspberry Pi Model B](https://en.wikipedia.org/wiki/Raspberry_Pi#Model_comparison) with 512mb of RAM.
 
-It's running [Raspberry Pi OS (Legacy)](https://www.raspberrypi.com/software/operating-systems/). Other packages include the OpenVPN server, XScreenSaver, python3, shared google drive.
+It's running [Raspberry Pi OS (Legacy)](https://www.raspberrypi.com/software/operating-systems/).
 
-- [XScreenSaver](https://www.jwz.org/xscreensaver/) - XScreenSaver is the standard screen saver collection shipped on most Linux and Unix systems running the X11 Window System. To install the complete suite, try:
+I've also installed the following to allow the Channel Changing functionality:
+
+- [XScreenSaver](https://www.jwz.org/xscreensaver/) - XScreenSaver is the standard screen saver collection shipped on most Linux and Unix systems running the X11 Window System. To install the complete suite, use:
 
 ```
 sudo apt-get install xscreensaver*
@@ -18,7 +20,7 @@ My current settings are Random Screen Saver; Blank and Cycle after 1 minute. The
 
 ![XScreenSaver-Preferences](/assets/images/xscreensaver-preferences-tvtanks.png)
 
-- Python3 - While you may know the python as a large snake, the [name of the Python programming language](https://pythoninstitute.org/about-python) comes from an old BBC television comedy sketch series called Monty Python’s Flying Circus.
+- Python3 - Did you know that the [name of the Python programming language](https://pythoninstitute.org/about-python) comes from the BBC television comedy sketch called "Monty Python’s Flying Circus"?
 
 ```
 sudo apt install python3
@@ -30,20 +32,20 @@ sudo apt install python3
 sudo pip3 install pynput
 ```
 
-- [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/installing.html) - This library allows a common 2 pole 4 position switch to be used a "button" to [change the channel](https://gpiozero.readthedocs.io/en/stable/recipes.html#button) on my TvTank. In essence, turning the knob deactivates the screen saver and changes the background picture.
+- [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/installing.html) - This library allows a common 2 pole 4 position switch to be [used as a "button"](https://gpiozero.readthedocs.io/en/stable/recipes.html#button) to change the channel on my TvTank. In essence, turning the knob will deactivate the screen saver and set a new background picture.
 
 ```
 sudo apt install python3-gpiozero
 ```
 
-- Run my channel changer script below at boot. Follow these [directions](https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup/all#method-2-autostart) to use the autostart system, as you will need access to the X Windows and desktop of the Raspberry Pi.
-
 <div id="channel_changer.py">
 </div>
 
-- My custom channel changer script on [GitHub](https://github.com/martinvicknair/tvtanks.com/blob/main/channel_changer.py).
+- Set my channel changer script below at boot. Follow these [instructions](https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup/all#method-2-autostart) to use the autostart system, as you will need access to X Windows and the desktop of the Raspberry Pi.
 
-```
+My custom channel changer script is also available on [GitHub](https://github.com/martinvicknair/tvtanks.com/blob/main/channel_changer.py).
+
+```python
 #!/usr/bin/env python3
 
 ## Changes the 'channel' on my TV Fish tank:
