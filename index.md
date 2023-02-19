@@ -40,8 +40,6 @@ Or, how I made mine:
 
 ##### [About](/pages/about.md)
 
-<div id="visits">..</div>
-
 ## <script>function cb(response) {document.getElementById('visits').innerText = response.value;}</script>
 
 <script src="https://utteranc.es/client.js"
@@ -51,3 +49,5 @@ Or, how I made mine:
         crossorigin="anonymous"
         async>
 </script>
+
+<div id="visits">..</div>
