@@ -38,8 +38,6 @@ Or, how I made mine:
 
 ##### [About](/pages/about.md)
 
-## <script>function cb(response) {document.getElementById('visits').innerText = response.value;}</script>
-
 <script src="https://utteranc.es/client.js"
         repo="martinvicknair/tvtanks.com"
         issue-term="pathname"
@@ -49,3 +47,5 @@ Or, how I made mine:
 </script>
 
 <div id="visits">..</div>
+
+<script>function cb(response) {document.getElementById('visits').innerText = response.value;}</script>
