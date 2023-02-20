@@ -36,8 +36,6 @@ Or, how I made mine:
 
 - Pics of various TvTanks I've made
 
----
-
 ##### [About](/pages/about.md)
 
 ## <script>function cb(response) {document.getElementById('visits').innerText = response.value;}</script>
