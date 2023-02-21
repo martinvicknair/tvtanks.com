@@ -1,6 +1,6 @@
-![TvTanks.com Logo](https://raw.githubusercontent.com/martinvicknair/tvtanks.com/main/images/tvtanktv.JPG)
+![TvTanks.com Logo](/assets/images/tvtanktv.JPG)
 
-###### Last Modified: 2023/02/11 18:31:14
+###### Last Modified: 2023/02/20 18:30:42
 
 # Raspberry Pi Powered TV Fish Tanks
 
