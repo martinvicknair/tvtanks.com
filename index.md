@@ -1,4 +1,4 @@
-<script async src="https://api.countapi.xyz/hit/tvtanks.com/visits?callback=cb"></script>
+// <script async src="https://api.countapi.xyz/hit/tvtanks.com/visits?callback=cb"></script>
 
 ![TvTanks.com Logo](/assets/images/tvtanktv.JPG)
 
