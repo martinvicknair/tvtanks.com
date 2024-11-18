@@ -13,7 +13,7 @@ I've also installed the following to allow the Channel Changing functionality:
 - [XScreenSaver](https://www.jwz.org/xscreensaver/) - XScreenSaver is the standard screen saver collection shipped on most Linux and Unix systems running the X11 Window System. To install the complete suite, use:
 
 ```
-sudo apt-get install xscreensaver*
+sudo apt install xscreensaver*
 ```
 
 My current settings are Random Screen Saver; Blank and Cycle after 1 minute. There are hundreds of [screensavers](https://www.jwz.org/xscreensaver/screenshots/) available: current favorites: BoxFit, CloudLife, Deco, Deluxe, Demon, FuzzyFlakes, Goop, Grav, Kaleidoscope, Moire, Penrose, Phosphor, Pong, PopSquares, Rocks, Squiral, Substrate, WhirlWindWarp, XAnalogTV.
@@ -29,7 +29,7 @@ sudo apt install python3
 - [pynput](https://pynput.readthedocs.io/en/latest/) - Using Pynput a Python script can simulate a keypress, [move the mouse](https://pynput.readthedocs.io/en/latest/mouse.html) to a specific point on the screen, and monitor the inputs.
 
 ```
-sudo pip3 install pynput
+sudo apt install python3-pynput
 ```
 
 - [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/installing.html) - This library allows a common 2 pole 4 position switch to be [used as a "button"](https://gpiozero.readthedocs.io/en/stable/recipes.html#button) to change the channel on my TvTank. In essence, turning the knob will deactivate the screen saver and set a new background picture.
