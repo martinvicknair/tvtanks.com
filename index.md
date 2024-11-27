@@ -5,7 +5,7 @@ description: How to build your own Raspberry Pi powered TV fish tank
 image: https://wwww.tvtanks.com/assets/images/tvtanktv.JPG
 --- -->
 
-<script async src="https://api.countapi.xyz/hit/tvtanks.com/visits?callback=cb"></script>
+<!-- <script async src="https://api.countapi.xyz/hit/tvtanks.com/visits?callback=cb"></script> -->
 
 ![TvTanks.com Logo](/assets/images/tvtanktv.JPG)
 
@@ -53,6 +53,6 @@ Or, how I made mine:
         async>
 </script>
 
-<div id="visits">..</div>
+<!-- <div id="visits">..</div>
 
-<script>function cb(response) {document.getElementById('visits').innerText = response.value;}</script>
+<script>function cb(response) {document.getElementById('visits').innerText = response.value;}</script> -->
